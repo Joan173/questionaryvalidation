@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!--llamada al dtd por url nos ahorramos subir el xml Y dtd a http://www.xmlvalidation.com, de esta manera http://www.xmlvalidation.com al detectar esta llamada en este xml lo valida directamente usando questions.dtd-->
 <!DOCTYPE questions PUBLIC "-//Joan173//dtd_para_validar_questions_xml//ES" "https://github.com/Joan173/questionaryvalidation/questions.dtd">
+<!--en el caso de querer validarlo localmente subiendo xml y el dtd se debe cambiar el DOCTYPE al siguiente:-->
+<!-- <!DOCTYPE questions SYSTEM "questions.dtd"> -->
 
 <questions>
 	   
